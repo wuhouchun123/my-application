@@ -71,22 +71,22 @@ fun NumberChangeAnimationText(
 ) {
 //    Text(text = text, fontSize = 72.sp)
     Row(){
-        text.forEach {
-            AnimatedContent(
-                targetState = it,
-                transitionSpec = {
-                    if (isUp) {
-                        slideIntoContainer(AnimatedContentScope.SlideDirection.Up) with
-                                fadeOut() + slideOutOfContainer(AnimatedContentScope.SlideDirection.Up)
-                    } else {
-                        slideIntoContainer(AnimatedContentScope.SlideDirection.Down) with
-                                fadeOut() +  slideOutOfContainer(AnimatedContentScope.SlideDirection.Down)
-                    }
-
-                }
-            ) {
-                Text(text = it.toString(), modifier.padding(horizontal = 6.dp, vertical = 12.dp), fontSize = 72.sp)
-            }
-        }
+//        text.forEach {
+//            AnimatedContent(
+//                targetState = it,
+//                transitionSpec = {
+//                    if (isUp) {
+//                        slideIntoContainer(AnimatedContentScope.SlideDirection.Up) with
+//                                fadeOut() + slideOutOfContainer(AnimatedContentScope.SlideDirection.Up)
+//                    } else {
+//                        slideIntoContainer(AnimatedContentScope.SlideDirection.Down) with
+//                                fadeOut() +  slideOutOfContainer(AnimatedContentScope.SlideDirection.Down)
+//                    }
+//
+//                }
+//            ) {
+//                Text(text = it.toString(), modifier.padding(horizontal = 6.dp, vertical = 12.dp), fontSize = 72.sp)
+//            }
+//        }
     }
 }

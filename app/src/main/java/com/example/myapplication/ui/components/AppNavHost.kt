@@ -58,5 +58,9 @@ fun AppNavHost(
         composable(route = AppScreen.FixedBall.name) {
             FixedBall()
         }
+
+        composable(route = AppScreen.CircularProgressBar.name) {
+            CircularProgressBarBox()
+        }
     }
 }

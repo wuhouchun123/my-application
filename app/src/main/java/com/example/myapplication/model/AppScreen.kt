@@ -15,5 +15,6 @@ enum class AppScreen(val title: String) {
     Dialog(title = "点击显示弹窗"),
     Drawer(title = "侧边栏"),
     Chat(title = "聊天功能"),
-    FixedBall(title = "滑动到某位置固定的球")
+    FixedBall(title = "滑动到某位置固定的球"),
+    CircularProgressBar(title = "动态圆弧进度条")
 }

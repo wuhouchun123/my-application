@@ -13,6 +13,7 @@ class ExampleViewModel: ViewModel() {
         AppScreen.Dialog,
         AppScreen.Drawer,
         AppScreen.Chat,
-        AppScreen.FixedBall
+        AppScreen.FixedBall,
+        AppScreen.CircularProgressBar
     )
 }
