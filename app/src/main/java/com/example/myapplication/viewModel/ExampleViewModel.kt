@@ -7,6 +7,7 @@ class ExampleViewModel: ViewModel() {
     val exampleEntryList = listOf(
         AppScreen.LikeAnimation,
         AppScreen.DraggableMusicKnob,
+        AppScreen.DraggableMusicKnob2,
         AppScreen.DraggableBall,
         AppScreen.Timer,
         AppScreen.BottomNavigation,

@@ -31,6 +31,10 @@ fun AppNavHost(
             DraggableMusicKnob()
         }
 
+        composable(route = AppScreen.DraggableMusicKnob2.name) {
+            DraggableMusicKnob2()
+        }
+
         composable(route = AppScreen.DraggableBall.name) {
             DraggableBall()
         }
