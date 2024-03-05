@@ -10,6 +10,7 @@ class ExampleViewModel: ViewModel() {
         AppScreen.DraggableMusicKnob2,
         AppScreen.DraggableBall,
         AppScreen.Timer,
+        AppScreen.Timer2,
         AppScreen.BottomNavigation,
         AppScreen.Dialog,
         AppScreen.Drawer,

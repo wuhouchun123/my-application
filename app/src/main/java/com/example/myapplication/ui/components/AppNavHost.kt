@@ -43,6 +43,10 @@ fun AppNavHost(
             Timer()
         }
 
+        composable(route = AppScreen.Timer2.name) {
+            Timer2()
+        }
+
         composable(route = AppScreen.BottomNavigation.name) {
             BottomNavigation()
         }

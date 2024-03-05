@@ -12,6 +12,7 @@ enum class AppScreen(val title: String) {
     DraggableMusicKnob2(title = "可调节音量的音乐组件(再写一遍)"),
     DraggableBall(title = "可移动吸附的小球"),
     Timer(title = "计时器仪表盘"),
+    Timer2(title = "计时器仪表盘(再写一遍)"),
     BottomNavigation(title = "底部菜单栏"),
     Dialog(title = "点击显示弹窗"),
     Drawer(title = "侧边栏"),
