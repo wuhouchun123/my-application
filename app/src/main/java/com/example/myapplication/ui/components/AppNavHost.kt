@@ -70,5 +70,9 @@ fun AppNavHost(
         composable(route = AppScreen.CircularProgressBar.name) {
             CircularProgressBarBox()
         }
+
+        composable(route = AppScreen.Animated3DDropDown.name) {
+            Animated3DDropDown()
+        }
     }
 }

@@ -18,5 +18,6 @@ enum class AppScreen(val title: String) {
     Drawer(title = "侧边栏"),
     Chat(title = "聊天功能"),
     FixedBall(title = "滑动到某位置固定的球"),
-    CircularProgressBar(title = "动态圆弧进度条")
+    CircularProgressBar(title = "动态圆弧进度条"),
+    Animated3DDropDown(title = "3D下拉动画")
 }

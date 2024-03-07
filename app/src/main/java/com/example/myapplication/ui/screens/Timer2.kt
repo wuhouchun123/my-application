@@ -107,9 +107,12 @@ fun Timer2(
                     style = Stroke(width = 30f, cap = StrokeCap.Round)
                 )
                 val center = Offset(size.width / 2f, size.height / 2f)
+                // 获取弧度
                 val beta = (250f * value + 145f) * (PI / 180f).toFloat()
                 val r = size.width / 2f
+                // 用弧度beta获取坐标x
                 val a = cos(beta) * r
+                // 用弧度beta获取坐标y
                 val b = sin(beta) * r
                 drawPoints(
                     points = listOf(Offset(center.x + a, center.y + b)),
