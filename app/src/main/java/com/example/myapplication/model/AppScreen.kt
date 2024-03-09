@@ -21,5 +21,6 @@ enum class AppScreen(val title: String) {
     CircularProgressBar(title = "动态圆弧进度条"),
     Animated3DDropDown(title = "3D下拉动画"),
     Navigate("导航到某个页面"),
-    SplashScreen("载入页动画")
+    SplashScreen("载入页动画"),
+    BottomNavigationWithBadges("带气泡的底部导航栏")
 }

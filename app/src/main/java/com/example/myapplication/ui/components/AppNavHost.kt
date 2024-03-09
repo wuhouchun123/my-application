@@ -82,5 +82,9 @@ fun AppNavHost(
         composable(route = AppScreen.SplashScreen.name) {
             NavSplashScreen()
         }
+
+        composable(route = AppScreen.BottomNavigationWithBadges.name) {
+            BottomNavigationWithBadges()
+        }
     }
 }

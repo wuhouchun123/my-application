@@ -19,6 +19,7 @@ class ExampleViewModel: ViewModel() {
         AppScreen.CircularProgressBar,
         AppScreen.Animated3DDropDown,
         AppScreen.Navigate,
-        AppScreen.SplashScreen
+        AppScreen.SplashScreen,
+        AppScreen.BottomNavigationWithBadges
     )
 }
