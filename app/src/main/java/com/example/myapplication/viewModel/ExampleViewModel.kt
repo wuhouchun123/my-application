@@ -17,6 +17,7 @@ class ExampleViewModel: ViewModel() {
         AppScreen.Chat,
         AppScreen.FixedBall,
         AppScreen.CircularProgressBar,
-        AppScreen.Animated3DDropDown
+        AppScreen.Animated3DDropDown,
+        AppScreen.Navigate
     )
 }

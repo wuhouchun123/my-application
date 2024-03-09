@@ -74,5 +74,9 @@ fun AppNavHost(
         composable(route = AppScreen.Animated3DDropDown.name) {
             Animated3DDropDown()
         }
+
+        composable(route = AppScreen.Navigate.name) {
+            Navigate()
+        }
     }
 }
