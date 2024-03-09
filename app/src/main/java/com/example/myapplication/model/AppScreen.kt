@@ -20,5 +20,6 @@ enum class AppScreen(val title: String) {
     FixedBall(title = "滑动到某位置固定的球"),
     CircularProgressBar(title = "动态圆弧进度条"),
     Animated3DDropDown(title = "3D下拉动画"),
-    Navigate("导航到某个页面")
+    Navigate("导航到某个页面"),
+    SplashScreen("载入页动画")
 }

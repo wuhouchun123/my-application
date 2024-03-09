@@ -78,5 +78,9 @@ fun AppNavHost(
         composable(route = AppScreen.Navigate.name) {
             Navigate()
         }
+
+        composable(route = AppScreen.SplashScreen.name) {
+            NavSplashScreen()
+        }
     }
 }
