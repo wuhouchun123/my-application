@@ -6,7 +6,7 @@ package com.example.myapplication.model
  * enum class Screen(@StringRes title: Int) { ... }
  */
 enum class AppScreen(val title: String) {
-    Home(title = "壮兔dorunto的空间"), // start screen
+    Home(title = "我的Compose之旅"), // start screen
     LikeAnimation(title = "点赞的数字点击动画"),
     DraggableMusicKnob(title = "可调节音量的音乐组件"),
     DraggableMusicKnob2(title = "可调节音量的音乐组件(再写一遍)"),
