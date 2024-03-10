@@ -86,5 +86,9 @@ fun AppNavHost(
         composable(route = AppScreen.BottomNavigationWithBadges.name) {
             BottomNavigationWithBadges()
         }
+
+        composable(route = AppScreen.MultiSelectLazyColumn.name) {
+            MultiSelectLazyColumnBOx()
+        }
     }
 }

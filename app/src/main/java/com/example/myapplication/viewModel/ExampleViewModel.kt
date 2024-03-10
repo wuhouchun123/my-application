@@ -20,6 +20,7 @@ class ExampleViewModel: ViewModel() {
         AppScreen.Animated3DDropDown,
         AppScreen.Navigate,
         AppScreen.SplashScreen,
-        AppScreen.BottomNavigationWithBadges
+        AppScreen.BottomNavigationWithBadges,
+        AppScreen.MultiSelectLazyColumn
     )
 }

@@ -26,7 +26,7 @@ fun Home(
         reverseLayout = true,
         modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp)
+            .padding(8.dp)
     ) {
         val exampleEntryList = exampleViewModel.exampleEntryList
         items(exampleEntryList.size) {
@@ -38,7 +38,7 @@ fun Home(
                 ),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(60.dp),
+                    .height(50.dp),
             ) {
                 Text(
                     text = exampleEntryList[it].title,
