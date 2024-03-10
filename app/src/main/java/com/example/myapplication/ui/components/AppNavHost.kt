@@ -94,5 +94,9 @@ fun AppNavHost(
         composable(route = AppScreen.PermissionHandling.name) {
             PermissionHandlingBox()
         }
+
+        composable(route = AppScreen.ThemeAddSpacing.name) {
+            ThemeAddSpacingBox()
+        }
     }
 }
