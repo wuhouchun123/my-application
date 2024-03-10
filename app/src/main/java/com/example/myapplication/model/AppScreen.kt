@@ -25,5 +25,6 @@ enum class AppScreen(val title: String) {
     BottomNavigationWithBadges("带气泡的底部导航栏"),
     MultiSelectLazyColumn("多选LazyColumn"),
     PermissionHandling("应用权限处理"),
-    ThemeAddSpacing("主题添加间距")
+    ThemeAddSpacing("主题添加间距"),
+    SupportAllScreen("支持所有屏幕")
 }

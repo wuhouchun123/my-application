@@ -98,5 +98,9 @@ fun AppNavHost(
         composable(route = AppScreen.ThemeAddSpacing.name) {
             ThemeAddSpacingBox()
         }
+
+        composable(route = AppScreen.SupportAllScreen.name) {
+            SupportAllScreenBox()
+        }
     }
 }

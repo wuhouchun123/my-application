@@ -23,6 +23,7 @@ class ExampleViewModel: ViewModel() {
         AppScreen.BottomNavigationWithBadges,
         AppScreen.MultiSelectLazyColumn,
         AppScreen.PermissionHandling,
-        AppScreen.ThemeAddSpacing
+        AppScreen.ThemeAddSpacing,
+        AppScreen.SupportAllScreen
     )
 }
