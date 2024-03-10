@@ -21,6 +21,7 @@ class ExampleViewModel: ViewModel() {
         AppScreen.Navigate,
         AppScreen.SplashScreen,
         AppScreen.BottomNavigationWithBadges,
-        AppScreen.MultiSelectLazyColumn
+        AppScreen.MultiSelectLazyColumn,
+        AppScreen.PermissionHandling
     )
 }

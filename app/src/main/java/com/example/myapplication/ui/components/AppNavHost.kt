@@ -90,5 +90,9 @@ fun AppNavHost(
         composable(route = AppScreen.MultiSelectLazyColumn.name) {
             MultiSelectLazyColumnBOx()
         }
+
+        composable(route = AppScreen.PermissionHandling.name) {
+            PermissionHandlingBox()
+        }
     }
 }

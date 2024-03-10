@@ -23,5 +23,6 @@ enum class AppScreen(val title: String) {
     Navigate("导航到某个页面"),
     SplashScreen("载入页动画"),
     BottomNavigationWithBadges("带气泡的底部导航栏"),
-    MultiSelectLazyColumn("多选LazyColumn")
+    MultiSelectLazyColumn("多选LazyColumn"),
+    PermissionHandling("应用权限处理"),
 }

@@ -38,7 +38,7 @@ fun Home(
                 ),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(50.dp),
+                    .height(45.dp),
             ) {
                 Text(
                     text = exampleEntryList[it].title,
