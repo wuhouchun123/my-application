@@ -24,6 +24,7 @@ class ExampleViewModel: ViewModel() {
         AppScreen.MultiSelectLazyColumn,
         AppScreen.PermissionHandling,
         AppScreen.ThemeAddSpacing,
-        AppScreen.SupportAllScreen
+        AppScreen.SupportAllScreen,
+        AppScreen.LazyGrid
     )
 }

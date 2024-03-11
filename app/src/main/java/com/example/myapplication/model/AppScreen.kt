@@ -26,5 +26,6 @@ enum class AppScreen(val title: String) {
     MultiSelectLazyColumn("多选LazyColumn"),
     PermissionHandling("应用权限处理"),
     ThemeAddSpacing("主题添加间距"),
-    SupportAllScreen("支持所有屏幕")
+    SupportAllScreen("支持所有屏幕"),
+    LazyGrid("惰性九宫格")
 }

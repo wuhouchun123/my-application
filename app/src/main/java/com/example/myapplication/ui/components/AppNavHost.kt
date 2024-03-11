@@ -102,5 +102,9 @@ fun AppNavHost(
         composable(route = AppScreen.SupportAllScreen.name) {
             SupportAllScreenBox()
         }
+
+        composable(route = AppScreen.LazyGrid.name) {
+            LazyGridBox()
+        }
     }
 }
